@@ -27,7 +27,10 @@
   "main": "./index.js",
   "types": "./index.d.ts",
   "dependencies": {
+    "@types/lodash": "^4.14.118",
     "app-root-path": "^2.0.1",
+    "lodash": "^4.17.11",
+    "tmp-promise": "^1.0.5",
     "xml2js": "^0.4.19"
   },
   "peerDependencies": {
