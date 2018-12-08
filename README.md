@@ -18,20 +18,13 @@ $ npm install @atomist/sdm-pack-checkstyle
 
 2. Install the support
 
-```
+```typescript
 import { checkstyleSupport } from "@atomist/sdm-pack-checkstyle";
 
-sdm.addExtensionPack(checkstyleSupport);
-```
-
-3. Add configuration to your client configuration
-
-```
-  "checkstyle": {
-    "enabled": true,
-    "path": "<path to a downloaded checkstyle-VERSION-all.jar>",
-    "reviewOnlyChangedFiles": false
-  }
+sdm.addExtensionPack(checkstyleSupport({
+    enabled: true,
+    checkstylePath: "<path to a downloaded checkstyle-VERSION-all.jar>",    
+}));
 ```
 
 ## Support
@@ -42,7 +35,7 @@ at [atomist-community.slack.com][slack].
 
 If you find a problem, please create an [issue][].
 
-[issue]: https://github.com/atomist/automation-client-ts/issues
+[issue]: https://github.com/atomist/sdm-pack-checkstyle/issues
 
 ## Development
 
