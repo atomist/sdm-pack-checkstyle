@@ -1,6 +1,12 @@
 # @atomist/sdm-pack-checkstyle
 
-Extension Pack for an Atomist SDM to integrate Checkstyle.
+This Extension Pack for an Atomist SDM integrates [Checkstyle][], a static analysis tool for Java.
+
+[API doc][api-doc]
+
+[api-doc]: https://atomist.github.io/sdm-pack-checkstyle/ (API Doc for this pack)
+
+[Checkstyle]: http://checkstyle.sourceforge.net/ (Checkstyle tool)
 
 ## Usage
 
@@ -13,9 +19,9 @@ $ npm install @atomist/sdm-pack-checkstyle
 2. Install the support
 
 ```
-import { CheckStyleSupport } from "@atomist/sdm-pack-checkstyle";
+import { checkstyleSupport } from "@atomist/sdm-pack-checkstyle";
 
-sdm.addExtensionPack(CheckStyleSupport);
+sdm.addExtensionPack(checkstyleSupport);
 ```
 
 3. Add configuration to your client configuration
