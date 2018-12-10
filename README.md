@@ -1,5 +1,9 @@
 # @atomist/sdm-pack-checkstyle
 
+[![atomist sdm goals](http://badge.atomist.com/T29E48P34/atomist/sdm-pack-checkstyle/0f2322af-4133-40d3-9882-3f99cb637390)](https://app.atomist.com/workspace/T29E48P34)
+[![npm version](https://img.shields.io/npm/v/@atomist/sdm-pack-checkstyle.svg)](https://www.npmjs.com/package/@atomist/sdm-pack-checkstyle)
+
+
 This Extension Pack for an Atomist SDM integrates [Checkstyle][], a static analysis tool for Java.
 
 [API doc][api-doc]
